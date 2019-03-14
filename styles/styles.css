@@ -1,0 +1,22 @@
+#container {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#container > div {
+    border: 1px solid red;
+}
+
+#users-container {
+    flex: 2 1 auto
+}
+
+#user-container {
+    flex: 1 1 auto
+}
+
+.ptr {
+    cursor: pointer;
+}
